@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListNickNameViewController" customModule="FaceDetect" customModuleProvider="target">
+            <connections>
+                <outlet property="tbView" destination="DZ0-Sw-jZW" id="225-1S-8nX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoB-ye-89u">
+                    <rect key="frame" x="16" y="60" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="74z-LM-ISb"/>
+                        <constraint firstAttribute="height" constant="24" id="FOs-uW-EQh"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="actClose:" destination="-1" eventType="touchUpInside" id="g9P-VE-chh"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DZ0-Sw-jZW">
+                    <rect key="frame" x="0.0" y="124" width="414" height="738"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DZ0-Sw-jZW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="3Hd-W2-DZu"/>
+                <constraint firstItem="SoB-ye-89u" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Khc-FJ-3X1"/>
+                <constraint firstItem="SoB-ye-89u" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="LLL-gy-iIV"/>
+                <constraint firstItem="DZ0-Sw-jZW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Sbg-n2-jOF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DZ0-Sw-jZW" secondAttribute="trailing" id="c6X-9W-Mem"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DZ0-Sw-jZW" secondAttribute="bottom" id="shV-P2-swm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="130"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="24" height="24"/>
+    </resources>
+</document>

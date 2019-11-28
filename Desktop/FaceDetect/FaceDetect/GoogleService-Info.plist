@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>725848461800-06708g1kioh3v1ei0r61jqovil9e3o0d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.725848461800-06708g1kioh3v1ei0r61jqovil9e3o0d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAy5xy77ivVC2k0vHAzW5TD3k4cZDnPkyE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>725848461800</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vision.facedetect</string>
+	<key>PROJECT_ID</key>
+	<string>arcane-stack-618</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arcane-stack-618.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:725848461800:ios:d8047fd13a5f226111145d</string>
+	<key>DATABASE_URL</key>
+	<string>https://arcane-stack-618.firebaseio.com</string>
+</dict>
+</plist>
